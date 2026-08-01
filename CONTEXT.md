@@ -77,7 +77,7 @@ The learner's durable record, per scored-row identity (verb + Basic form, or ver
 _Avoid_: Progress (alone), save state, mastery store
 
 **Exercise record**:
-A durable record of one completed Exercise for a learner: which verb, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
+A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Records are kept indefinitely; they are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
 _Avoid_: Progress (alone), session log, attempt history, resume state
 
 **Session-only state**:
