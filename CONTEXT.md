@@ -29,7 +29,7 @@ Evaluating one fill-in row, or all rows in the Exercise at once. Shows only outc
 _Avoid_: Submit (as a domain concept), grade, validate
 
 **Hint**:
-A per-row control the learner must click to reveal the correct answer for that fill-in; it does not insert the answer. Using a Hint counts as a Full fault for that row. Reveal is never automatic on Check.
+A per-row control the learner must click to reveal the correct answer for that fill-in; it does not insert the answer. Available at any time, even before a first guess. Using a Hint counts as a Full fault for that row. Reveal is never automatic on Check.
 _Avoid_: Reveal, cheat, autofill, solution button, answer button
 
 **Full fault**:
