@@ -9,7 +9,7 @@ One of the three grammatical tenses initially in scope: Presente (como), Pretér
 _Avoid_: Time, form (as a synonym), verb form
 
 **Exercise**:
-One practice unit for a single Spanish verb across all three Tenses: a block of Infinitive + six Person forms per Tense (21 rows total). The Exercise is done only when every row has been Checked correct (directly, via Correction, or already Mastered).
+One practice unit for a single Spanish verb across all three Tenses: a block of Infinitive + six Person forms per Tense (21 rows total). The Exercise is done only when every row has been Checked correct (directly, via Correction, or already Mastered). Row state persists, so leaving and returning to an unfinished Exercise resumes exactly where it left off — no separate save step.
 _Avoid_: Card, quiz, lesson, session
 
 **Infinitive**:
