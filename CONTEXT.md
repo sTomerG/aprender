@@ -68,6 +68,14 @@ _Avoid_: Normal row, active row
 Shown once all 15 scored rows in an Exercise are correct, as a blocking popup with the Exercise score and per-Exercise stats (perfect / Mastered / Accent fault / Full fault counts). From there the learner either dismisses it to review the finished Exercise (rows stay visible, still no auto-advance) or goes straight to the next verb. The app never advances automatically.
 _Avoid_: Summary, results page, auto-advance
 
-**Session-only progress**:
-Exercise and row state (including Mastery history) currently lives only in memory for the current page load; nothing is persisted yet. Persistence (e.g. across reloads/devices) is a deliberately deferred decision, not yet designed.
-_Avoid_: Save, auto-save, progress storage
+**Mastery history**:
+The learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. This is what decides whether a row starts as Mastered or as a Practice row, and when Mastery is demoted.
+_Avoid_: Progress (alone), save state, mastery store
+
+**Exercise record**:
+A durable record of one completed Exercise for a learner: which verb, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
+_Avoid_: Progress (alone), session log, attempt history, resume state
+
+**Session-only state**:
+Typed answers, Check colors, Hint use, and other in-flight Exercise UI state for the current page load. Not persisted; deliberately discarded on reload.
+_Avoid_: Progress, save, auto-save
