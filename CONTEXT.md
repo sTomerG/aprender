@@ -73,7 +73,7 @@ Shown once all 15 scored rows in an Exercise are correct, as a blocking popup wi
 _Avoid_: Summary, results page, auto-advance
 
 **Mastery history**:
-The Learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. This is what decides whether a row starts as Mastered or as a Practice row, and when Mastery is demoted. It is updated only when an Exercise is completed, together with that Exercise's Exercise record. How history maps to Mastered vs Practice (promotion/demotion) remains the placeholder policy on Mastered row — not a finalized spaced-repetition algorithm.
+The Learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. Each update is tied to when that Exercise was completed — time is part of the history, because future Mastery promotion/demotion will depend on it. Updated only when an Exercise is completed, together with that Exercise's Exercise record. How history maps to Mastered vs Practice remains the placeholder policy on Mastered row — not a finalized spaced-repetition algorithm — but the stored history must remain rich enough for a time-based policy later.
 _Avoid_: Progress (alone), save state, mastery store
 
 **Exercise record**:
