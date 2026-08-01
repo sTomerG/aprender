@@ -55,3 +55,7 @@ _Avoid_: Known row, learned row, skipped row
 **Practice row**:
 A row that is not currently Mastered: it starts blank and must be filled in and Checked (directly or via Correction) like any other row.
 _Avoid_: Normal row, active row
+
+**Completion screen**:
+Shown once all 21 rows in an Exercise are correct. Displays the Exercise score and an explicit "Next verb" action; the app never advances automatically.
+_Avoid_: Summary, results page, auto-advance
