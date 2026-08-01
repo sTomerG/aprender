@@ -73,11 +73,11 @@ Shown once all 15 scored rows in an Exercise are correct, as a blocking popup wi
 _Avoid_: Summary, results page, auto-advance
 
 **Mastery history**:
-The learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. This is what decides whether a row starts as Mastered or as a Practice row, and when Mastery is demoted.
+The Learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. This is what decides whether a row starts as Mastered or as a Practice row, and when Mastery is demoted. It is updated only when an Exercise is completed, together with that Exercise's Exercise record.
 _Avoid_: Progress (alone), save state, mastery store
 
 **Exercise record**:
-A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Records are kept indefinitely; they are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
+A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Created only at Exercise completion (when the Completion screen appears); records are kept indefinitely and are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
 _Avoid_: Progress (alone), session log, attempt history, resume state
 
 **Session-only state**:
