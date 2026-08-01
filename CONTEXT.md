@@ -13,7 +13,7 @@ The unconjugated dictionary form of the Spanish verb; in an Exercise it is itsel
 _Avoid_: Base form, stem, dictionary form
 
 **Person form**:
-A conjugated verb form for a grammatical person (yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes), cued by the person label.
+A conjugated verb form for one of the six grammatical persons always present in an Exercise: yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes — each cued by its person label.
 _Avoid_: Conjugation (alone), ending, answer row
 
 **Gloss**:
