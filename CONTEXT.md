@@ -23,3 +23,11 @@ _Avoid_: Translation, prompt
 **Hint**:
 A per-row control that reveals the correct answer for that fill-in without inserting it; the learner must still type the answer themselves.
 _Avoid_: Reveal, cheat, autofill, solution button
+
+**Check**:
+Submitting the Exercise for evaluation: each fill-in is marked correct or incorrect.
+_Avoid_: Submit (as a domain concept), grade, validate
+
+**Correction**:
+After a Check, each incorrect fill-in shows the right answer and must be retyped by the learner before the Exercise is done. Correct fill-ins are left as-is.
+_Avoid_: Retry, fix-up, review step
