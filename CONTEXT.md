@@ -73,8 +73,8 @@ Shown once all 15 scored rows in an Exercise are correct, as a blocking popup wi
 _Avoid_: Summary, results page, auto-advance
 
 **Mastery history**:
-The Learner's durable record, per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido), of outcomes across Exercises. Each update is tied to when that Exercise was completed — time is part of the history, because future Mastery promotion/demotion will depend on it. Updated only when an Exercise is completed, together with that Exercise's Exercise record. How history maps to Mastered vs Practice remains the placeholder policy on Mastered row — not a finalized spaced-repetition algorithm — but the stored history must remain rich enough for a time-based policy later.
-_Avoid_: Progress (alone), save state, mastery store
+The Learner's durable, append-only timeline of dated outcomes per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido). At each Exercise completion, one outcome is recorded per scored row in that Exercise: when it was completed and that row's Row result (0 / 0.5 / 1). Time is part of the history because future Mastery promotion/demotion will depend on it. How the timeline maps to Mastered vs Practice remains the placeholder policy on Mastered row — not a finalized spaced-repetition algorithm.
+_Avoid_: Progress (alone), save state, mastery store, rolling mastery summary
 
 **Exercise record**:
 A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Created only at Exercise completion (when the Completion screen appears); records are kept indefinitely and are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
