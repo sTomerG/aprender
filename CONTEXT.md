@@ -9,9 +9,13 @@ One practice unit: a single Spanish verb whose infinitive and person forms the l
 _Avoid_: Card, quiz, lesson, session
 
 **Infinitive**:
-The unconjugated dictionary form of the Spanish verb; in an Exercise it is itself a fill-in, not only a label.
+The unconjugated dictionary form of the Spanish verb; in an Exercise it is itself a fill-in, cued by its Dutch meaning.
 _Avoid_: Base form, stem, dictionary form
 
 **Person form**:
-A conjugated verb form for a grammatical person (yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes).
+A conjugated verb form for a grammatical person (yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes), cued by the person label.
 _Avoid_: Conjugation (alone), ending, answer row
+
+**Gloss**:
+The Dutch meaning shown as the cue for the Infinitive fill-in. Direction of practice is Dutch → Spanish.
+_Avoid_: Translation, prompt, hint
