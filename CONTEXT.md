@@ -29,5 +29,5 @@ Submitting the Exercise for evaluation: each fill-in is marked correct or incorr
 _Avoid_: Submit (as a domain concept), grade, validate
 
 **Correction**:
-After a Check, each incorrect fill-in shows the right answer and must be retyped by the learner before the Exercise is done. Correct fill-ins are left as-is.
+After a Check, each incorrect fill-in shows the right answer and must be retyped by the learner. The next Exercise is blocked until every incorrect fill-in has been correctly retyped. Correct fill-ins are left as-is.
 _Avoid_: Retry, fix-up, review step
