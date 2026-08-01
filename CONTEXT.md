@@ -4,6 +4,10 @@ Spaanse werkwoorden stampen via invuloefeningen, met focus op persoonsvormen.
 
 ## Language
 
+**Learner**:
+A person who practices Exercises. Each Learner has their own Mastery history and Exercise records. Accounts are created manually for a small known set of people; there is no public self-registration. Practice requires being signed in — there is no anonymous or guest practice.
+_Avoid_: User, account, student, profile, guest
+
 **Tense**:
 One of the four grammatical tenses initially in scope: Presente (como), Pretérito indefinido (comí), Presente continuo (estoy comiendo), Pretérito perfecto compuesto / PPC (he comido). Presente and Pretérito indefinido are fully typed and scored per person; Presente continuo and PPC are only typed/scored for the yo form (as part of Basic forms) — the other five persons are Derived rows.
 _Avoid_: Time, form (as a synonym), verb form
@@ -68,6 +72,18 @@ _Avoid_: Normal row, active row
 Shown once all 15 scored rows in an Exercise are correct, as a blocking popup with the Exercise score and per-Exercise stats (perfect / Mastered / Accent fault / Full fault counts). From there the learner either dismisses it to review the finished Exercise (rows stay visible, still no auto-advance) or goes straight to the next verb. The app never advances automatically.
 _Avoid_: Summary, results page, auto-advance
 
-**Session-only progress**:
-Exercise and row state (including Mastery history) currently lives only in memory for the current page load; nothing is persisted yet. Persistence (e.g. across reloads/devices) is a deliberately deferred decision, not yet designed.
-_Avoid_: Save, auto-save, progress storage
+**Mastery history**:
+The Learner's durable, append-only timeline of dated outcomes per scored-row identity (verb + Basic form, or verb + Tense + person for Presente/Indefinido). At each Exercise completion, one outcome is recorded per scored row in that Exercise: when it was completed and that row's Row result (0 / 0.5 / 1). Time is part of the history because future Mastery promotion/demotion will depend on it. How the timeline maps to Mastered vs Practice remains the placeholder policy on Mastered row — not a finalized spaced-repetition algorithm.
+_Avoid_: Progress (alone), save state, mastery store, rolling mastery summary
+
+**Exercise record**:
+A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Created only at Exercise completion (when the Completion screen appears); records are kept indefinitely and are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
+_Avoid_: Progress (alone), session log, attempt history, resume state
+
+**Exercise history**:
+The in-app chronological list of a Learner's Exercise records across all verbs (when completed, which verb, Exercise score, and the Completion-screen stats). This is how a Learner browses past completions; it is not a per-verb view.
+_Avoid_: Progress log, stats page, dashboard, per-verb history
+
+**Session-only state**:
+Typed answers, Check colors, Hint use, and other in-flight Exercise UI state for the current page load. Not persisted; deliberately discarded on reload.
+_Avoid_: Progress, save, auto-save
