@@ -35,3 +35,11 @@ _Avoid_: Error, miss
 **Accent fault**:
 A fill-in that matches the answer except for missing or wrong diacritics (and no Hint was used). Counts as a half fault; shown as yellow.
 _Avoid_: Soft error, typo, almost correct
+
+**Row result**:
+The scored outcome for one fill-in within an Exercise, based on the worst attempt on that row: Hint or Full fault → 0, Accent fault → 0.5, only correct Checks → 1. A later correct Check does not erase an earlier worse result.
+_Avoid_: Attempt score, line grade
+
+**Exercise score**:
+The average of the seven Row results (Infinitive + six Person forms) for one completed Exercise. Drives how often that verb returns in future Exercises.
+_Avoid_: Grade, accuracy, mastery (as a synonym for this average)
