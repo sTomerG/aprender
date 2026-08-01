@@ -4,6 +4,10 @@ Spaanse werkwoorden stampen via invuloefeningen, met focus op persoonsvormen.
 
 ## Language
 
+**Learner**:
+A person who practices Exercises. Each Learner has their own Mastery history and Exercise records. Accounts are created manually for a small known set of people; there is no public self-registration.
+_Avoid_: User, account, student, profile
+
 **Tense**:
 One of the four grammatical tenses initially in scope: Presente (como), Pretérito indefinido (comí), Presente continuo (estoy comiendo), Pretérito perfecto compuesto / PPC (he comido). Presente and Pretérito indefinido are fully typed and scored per person; Presente continuo and PPC are only typed/scored for the yo form (as part of Basic forms) — the other five persons are Derived rows.
 _Avoid_: Time, form (as a synonym), verb form
