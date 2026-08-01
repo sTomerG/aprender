@@ -21,7 +21,7 @@ The Dutch meaning shown as the cue for the Infinitive fill-in. Direction of prac
 _Avoid_: Translation, prompt
 
 **Check**:
-Evaluating one fill-in row, or all rows in the Exercise at once. Shows only outcome color — green (correct), yellow (Accent fault), red (Full fault) — and never reveals the answer. Comparison ignores letter case and surrounding spaces, but diacritics matter. After a non-green result the learner may edit and Check again.
+Evaluating one fill-in row, or all rows in the Exercise at once. Shows only outcome color — green (correct), yellow (Accent fault), red (Full fault) — and never reveals the answer. Comparison ignores letter case and surrounding spaces, but diacritics matter. After a non-green result the learner may edit and Check again. A green result locks that row for the rest of the Exercise.
 _Avoid_: Submit (as a domain concept), grade, validate
 
 **Hint**:
