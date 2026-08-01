@@ -77,8 +77,12 @@ The Learner's durable record, per scored-row identity (verb + Basic form, or ver
 _Avoid_: Progress (alone), save state, mastery store
 
 **Exercise record**:
-A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Created only at Exercise completion (when the Completion screen appears); records are kept indefinitely and are never updated or deleted as part of normal practice. The Learner can browse their own Exercise records in the app. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
+A durable, append-only record of one completed Exercise for a Learner: which verb, when it was completed, the Exercise score, and the per-Exercise stats shown on the Completion screen (perfect / Mastered / Accent fault / Full fault counts). Created only at Exercise completion (when the Completion screen appears); records are kept indefinitely and are never updated or deleted as part of normal practice. Mid-Exercise fill-in state is not an Exercise record and is not persisted — a reload abandons an unfinished Exercise.
 _Avoid_: Progress (alone), session log, attempt history, resume state
+
+**Exercise history**:
+The in-app chronological list of a Learner's Exercise records across all verbs (when completed, which verb, Exercise score, and the Completion-screen stats). This is how a Learner browses past completions; it is not a per-verb view.
+_Avoid_: Progress log, stats page, dashboard, per-verb history
 
 **Session-only state**:
 Typed answers, Check colors, Hint use, and other in-flight Exercise UI state for the current page load. Not persisted; deliberately discarded on reload.
