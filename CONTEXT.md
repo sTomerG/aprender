@@ -18,4 +18,8 @@ _Avoid_: Conjugation (alone), ending, answer row
 
 **Gloss**:
 The Dutch meaning shown as the cue for the Infinitive fill-in. Direction of practice is Dutch → Spanish.
-_Avoid_: Translation, prompt, hint
+_Avoid_: Translation, prompt
+
+**Hint**:
+A per-row control that reveals the correct answer for that fill-in without inserting it; the learner must still type the answer themselves.
+_Avoid_: Reveal, cheat, autofill, solution button
