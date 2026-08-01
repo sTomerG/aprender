@@ -4,16 +4,20 @@ Spaanse werkwoorden stampen via invuloefeningen, met focus op persoonsvormen.
 
 ## Language
 
+**Tense**:
+One of the three grammatical tenses initially in scope: Presente (como), Pretérito perfecto compuesto (he comido), Pretérito indefinido (comí).
+_Avoid_: Time, form (as a synonym), verb form
+
 **Exercise**:
-One practice unit: a single Spanish verb whose infinitive and person forms the learner must fill in. Rows may be checked one-by-one or all at once; the Exercise is done only when every row has been Checked correct.
+One practice unit for a single Spanish verb across all three Tenses: a block of Infinitive + six Person forms per Tense (21 rows total). The Exercise is done only when every row has been Checked correct (directly, via Correction, or already Mastered).
 _Avoid_: Card, quiz, lesson, session
 
 **Infinitive**:
-The unconjugated dictionary form of the Spanish verb; in an Exercise it is itself a fill-in, cued by its Dutch meaning.
+The unconjugated dictionary form of the Spanish verb; in an Exercise it is a fill-in within each Tense block, cued by its Dutch meaning. Its answer is the same across Tenses, but it is asked and scored once per Tense block.
 _Avoid_: Base form, stem, dictionary form
 
 **Person form**:
-A conjugated verb form for one of the six grammatical persons always present in an Exercise: yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes — each cued by its person label.
+A conjugated verb form, in a given Tense, for one of the six grammatical persons always present in each Tense block: yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes — each cued by its person label.
 _Avoid_: Conjugation (alone), ending, answer row
 
 **Gloss**:
@@ -41,5 +45,13 @@ The scored outcome for one fill-in within an Exercise, based on the worst attemp
 _Avoid_: Attempt score, line grade
 
 **Exercise score**:
-The average of the seven Row results (Infinitive + six Person forms) for one completed Exercise. Drives how often that verb returns in future Exercises.
+The average of the 21 Row results (Infinitive + six Person forms, per Tense) for one completed Exercise. Drives how often that verb returns in future Exercises.
 _Avoid_: Grade, accuracy, mastery (as a synonym for this average)
+
+**Mastered row**:
+A specific row (one verb + one Tense + one person, or the Infinitive within a Tense block) that is pre-filled with the correct answer and auto-confirmed as correct in a new Exercise, based on the learner's history for that exact row. The learner takes no action on it. Mastery is not permanent: on a schedule (details deferred — a spaced-repetition-style algorithm), a Mastered row is demoted back to a normal blank fill-in to reconfirm the learner still knows it.
+_Avoid_: Known row, learned row, skipped row
+
+**Practice row**:
+A row that is not currently Mastered: it starts blank and must be filled in and Checked (directly or via Correction) like any other row.
+_Avoid_: Normal row, active row
